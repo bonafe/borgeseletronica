@@ -25,9 +25,6 @@ Não há mais nenhum placeholder `[CONFIRMAR]` no site.
 
 ## Confirme com Thiago (respostas ambíguas do questionário original)
 
-- **E-mail**: ele escreveu `Thiago9980@hotmail.con`. Foi publicado como
-  `thiago9980@hotmail.com` (assumindo erro de digitação). Vale confirmar por
-  outro canal antes de publicar, para não perder mensagem de cliente.
 - **Fotos antigas/trajetória**: resposta original foi "Bao" (não é palavra
   clara em português); tratada como "não há fotos disponíveis".
 
@@ -35,7 +32,7 @@ Não há mais nenhum placeholder `[CONFIRMAR]` no site.
 
 - Nome comercial: **Borges Eletrônica**; razão social: Thiago Borges da Costa; CNPJ 51.497.192/0001-24.
 - WhatsApp: (19) 98407-4894 — único canal de contato.
-- E-mail: thiago9980@hotmail.com (ver ressalva acima).
+- E-mail: atendimento@borgeseletronica.com.br.
 - Atendimento por coleta e entrega em Campinas e Indaiatuba, sem oficina aberta ao público e sem atendimento em domicílio.
 - Taxa de deslocamento cobrada apenas quando o serviço não é executado.
 - Orçamento não é cobrado. Garantia: 90 dias.
