@@ -1,0 +1,26 @@
+<!--
+  Imagem de compartilhamento (Open Graph) — versão em SVG.
+  ATENÇÃO: a maioria das redes sociais (WhatsApp, Facebook, LinkedIn) não
+  renderiza SVG em previews de link. Antes de publicar em produção, exporte
+  este arquivo como og-image.png (1200x630) usando qualquer ferramenta de
+  design ou `rsvg-convert assets/img/og-image.svg -o assets/img/og-image.png
+  -w 1200 -h 630` e aponte as tags og:image / twitter:image para o PNG.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Borges Eletrônica — conserto de TV em Campinas e Indaiatuba">
+  <rect width="1200" height="630" fill="#0B1F33"/>
+  <g opacity="0.18" stroke="#1769E0" stroke-width="2" fill="none">
+    <path d="M0 500 H260 V420 H460 V500 H1200"/>
+    <path d="M0 560 H160 V620"/>
+    <circle cx="260" cy="500" r="5" fill="#1769E0" stroke="none"/>
+    <circle cx="460" cy="420" r="5" fill="#1769E0" stroke="none"/>
+  </g>
+  <g transform="translate(90,90)">
+    <rect width="72" height="72" rx="18" fill="#FFFFFF"/>
+    <path d="M21 18h16.5a9 9 0 0 1 4.8 16.65A9.75 9.75 0 0 1 38.25 54H21V18Zm7.5 7.5v9h9a4.5 4.5 0 0 0 0-9h-9Zm0 16.5v9.75h9.75a4.875 4.875 0 0 0 0-9.75H28.5Z" fill="#0B1F33"/>
+    <circle cx="55" cy="20" r="4.5" fill="#F5A623"/>
+  </g>
+  <text x="90" y="270" font-family="-apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-size="34" font-weight="800" fill="#FFFFFF">BORGES ELETRÔNICA</text>
+  <text x="90" y="340" font-family="-apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-size="52" font-weight="800" fill="#FFFFFF">Conserto de TV em</text>
+  <text x="90" y="405" font-family="-apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-size="52" font-weight="800" fill="#FFFFFF">Campinas e Indaiatuba</text>
+  <text x="90" y="460" font-family="-apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-size="26" font-weight="600" fill="#F5A623">Thiago Borges • quase 30 anos de experiência</text>
+</svg>

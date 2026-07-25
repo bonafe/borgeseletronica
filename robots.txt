@@ -1,0 +1,5 @@
+# Atualizar o domínio do Sitemap quando confirmado (ver PENDENCIAS.md #48-49).
+User-agent: *
+Allow: /
+
+Sitemap: https://www.borgeseletronica.com.br/sitemap.xml

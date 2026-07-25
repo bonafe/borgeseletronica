@@ -1,0 +1,58 @@
+{
+  "_readme": "Fonte única dos dados de negócio do site Borges Eletrônica. Os valores marcados como [CONFIRMAR] ainda não foram fornecidos e NÃO devem ser inventados. Depois de confirmar os dados reais com Thiago Borges, edite este arquivo e rode scripts/apply-config.sh para propagar os valores para todos os arquivos HTML. Veja PENDENCIAS.md para a lista completa de perguntas.",
+
+  "businessName": "Borges Eletrônica",
+  "ownerName": "Thiago Borges",
+  "legalName": "[CONFIRMAR]",
+  "cnpj": "[CONFIRMAR]",
+
+  "phone": "[CONFIRMAR]",
+  "phoneDisplay": "[CONFIRMAR]",
+  "whatsapp": "[CONFIRMAR]",
+  "whatsappDisplay": "[CONFIRMAR]",
+  "email": "[CONFIRMAR]",
+
+  "address": {
+    "isPublicWorkshop": "[CONFIRMAR]",
+    "street": "[CONFIRMAR]",
+    "neighborhood": "[CONFIRMAR]",
+    "city": "[CONFIRMAR]",
+    "state": "SP",
+    "zip": "[CONFIRMAR]",
+    "mapsUrl": "[CONFIRMAR]"
+  },
+
+  "openingHours": "[CONFIRMAR]",
+  "yearsExperienceText": "quase 30 anos",
+  "warranty": "[CONFIRMAR]",
+
+  "budgetPolicy": {
+    "isChargeable": "[CONFIRMAR]",
+    "isDeductedFromService": "[CONFIRMAR]"
+  },
+
+  "pickupDelivery": {
+    "available": "[CONFIRMAR]",
+    "travelFee": "[CONFIRMAR]"
+  },
+
+  "invoiceIssued": "[CONFIRMAR]",
+  "paymentMethods": "[CONFIRMAR]",
+
+  "cities": ["Campinas", "Indaiatuba"],
+
+  "googleBusinessUrl": "[CONFIRMAR]",
+  "googleReviewsUrl": "[CONFIRMAR]",
+  "instagramUrl": "[CONFIRMAR]",
+  "facebookUrl": "[CONFIRMAR]",
+  "youtubeUrl": "[CONFIRMAR]",
+
+  "siteUrl": "[CONFIRMAR — ex: https://www.borgeseletronica.com.br]",
+
+  "whatsappMessages": {
+    "generic": "Olá, encontrei a Borges Eletrônica pelo site. Preciso de ajuda com um equipamento.\nTipo de equipamento:\nMarca e modelo:\nProblema apresentado:\nCidade:",
+    "tv": "Olá, encontrei a Borges Eletrônica pelo site.\n\nEquipamento: TV\nMarca:\nModelo:\nTamanho:\nProblema:\nCidade:\nTenho fotos ou vídeo: sim/não",
+    "audio": "Olá, encontrei a Borges Eletrônica pelo site.\n\nEquipamento:\nMarca:\nModelo:\nProblema:\nUso doméstico ou profissional:\nCidade:",
+    "other": "Olá, gostaria de saber se a Borges Eletrônica atende este equipamento.\n\nTipo:\nMarca:\nModelo:\nProblema:\nCidade:"
+  }
+}

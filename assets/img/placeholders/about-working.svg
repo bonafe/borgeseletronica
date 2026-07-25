@@ -1,0 +1,15 @@
+<!-- Placeholder ilustrativo. Substituir por foto real: Thiago trabalhando / detalhe de placa e ferramentas (spec §7.8 / §11). -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320" role="img" aria-labelledby="workingTitle">
+  <title id="workingTitle">Ilustração provisória de manutenção eletrônica — foto real em breve</title>
+  <rect width="320" height="320" rx="16" fill="#EAF2FF"/>
+  <rect x="70" y="90" width="180" height="120" rx="8" fill="#0B1F33"/>
+  <g stroke="#F5A623" stroke-width="3" fill="none" opacity="0.9">
+    <path d="M95 120 h50 v20 h30 v20 h-60 v20 h60"/>
+    <circle cx="95" cy="120" r="3.5" fill="#F5A623" stroke="none"/>
+    <circle cx="175" cy="180" r="3.5" fill="#F5A623" stroke="none"/>
+  </g>
+  <g stroke="#0B1F33" stroke-width="6" stroke-linecap="round">
+    <path d="M230 250 l30 -40"/>
+    <path d="M255 205 l14 14"/>
+  </g>
+</svg>
