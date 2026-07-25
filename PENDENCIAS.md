@@ -1,101 +1,87 @@
 # Pendências antes de publicar
 
-Lista de dados reais ainda não confirmados (spec §24) e checklist de aceite
-(spec §21). Nada aqui foi inventado — o site atual usa `[CONFIRMAR]` em todos
-esses pontos. Depois de reunir as respostas, atualize `content/config.json` e
-rode `bash scripts/apply-config.sh` (ver `README.md`).
+Thiago respondeu as perguntas em `docs/perguntas-para-thiago.docx`. As
+respostas foram aplicadas em `content/config.json` e em todas as páginas
+HTML. Os poucos itens que ele não respondeu foram tratados assumindo que
+essa resposta não virá — sem endereço físico, sem horário de funcionamento
+e com linguagem genérica (sem inventar números) onde fazia sentido.
 
-## Essenciais antes da publicação
+Não há mais nenhum placeholder `[CONFIRMAR]` no site.
 
-1. O nome deve aparecer como **Thiago Borges** ou existe outra grafia oficial?
-2. Qual é a razão social e existe CNPJ?
-3. O nome comercial definitivo será **Borges Eletrônica**?
-4. Qual é o número do WhatsApp?
-5. Existe telefone para ligações?
-6. Qual é o e-mail?
-7. Existe oficina aberta ao público?
-8. Qual é o endereço?
-9. Qual é o horário de atendimento?
-10. Thiago atende Campinas e Indaiatuba da mesma forma?
-11. Em qual cidade fica a oficina?
-12. Há atendimento em domicílio?
-13. Há retirada e entrega?
-14. Existe taxa de deslocamento?
-15. O orçamento é cobrado?
-16. O valor da avaliação é descontado quando o serviço é aprovado?
-17. Qual é a garantia oferecida?
-18. É emitida nota fiscal?
-19. Quais formas de pagamento são aceitas?
-20. É possível parcelar?
+## Decisões definitivas (não são mais pendências)
 
-## Serviços
+- **Sem telefone**: único canal de contato é o WhatsApp. Todos os botões
+  "Ligar" foram removidos.
+- **Sem endereço físico / oficina aberta ao público**: o atendimento é
+  sempre por coleta do equipamento e entrega após o conserto, combinadas
+  pelo WhatsApp. Isso vale para Campinas e Indaiatuba.
+- **Sem horário de funcionamento divulgado**: removido de todas as páginas
+  (footer, contato, banners).
+- Perguntas sem resposta prevista (como começou em detalhe, depoimentos,
+  casos para fotografar, clientes empresariais citáveis, prazos exatos de
+  avaliação/conserto, desconto da avaliação no serviço aprovado) foram
+  resolvidas com frases genéricas e honestas ("consulte pelo WhatsApp",
+  "varia conforme o caso") em vez de deixar `[CONFIRMAR]` indefinidamente.
 
-21. Quais tecnologias de TV são atendidas?
-22. Quais marcas são atendidas?
-23. Há limite de tamanho da TV?
-24. Thiago troca painel ou tela quebrada?
-25. Quais equipamentos de som são atendidos?
-26. Trabalha com áudio profissional?
-27. Trabalha com equipamentos vintage?
-28. Quais outros equipamentos eletrônicos são aceitos?
-29. Quais equipamentos não são aceitos?
-30. Faz reparo de placas?
-31. Faz laudo para seguro ou dano elétrico?
-32. Atende empresas?
-33. Possui contratos de manutenção?
-34. É autorizado de alguma marca?
-35. Possui cursos, certificados ou formação que devem aparecer?
+## Confirme com Thiago (respostas ambíguas do questionário original)
 
-## História e prova social
+- **E-mail**: ele escreveu `Thiago9980@hotmail.con`. Foi publicado como
+  `thiago9980@hotmail.com` (assumindo erro de digitação). Vale confirmar por
+  outro canal antes de publicar, para não perder mensagem de cliente.
+- **Fotos antigas/trajetória**: resposta original foi "Bao" (não é palavra
+  clara em português); tratada como "não há fotos disponíveis".
 
-36. Em que ano Thiago começou a trabalhar com eletrônica?
-37. Como começou?
-38. Há quanto tempo existe a Borges Eletrônica?
-39. Existem fotos antigas ou da trajetória?
-40. Existe Perfil da Empresa no Google?
-41. Qual é a nota e quantas avaliações existem?
-42. Existem depoimentos autorizados?
-43. Há casos interessantes para fotografar?
-44. Existem clientes empresariais que podem ser citados?
-45. Há Instagram, Facebook ou YouTube?
+## O que já foi confirmado e aplicado
 
-## Marca e site
+- Nome comercial: **Borges Eletrônica**; razão social: Thiago Borges da Costa; CNPJ 51.497.192/0001-24.
+- WhatsApp: (19) 98407-4894 — único canal de contato.
+- E-mail: thiago9980@hotmail.com (ver ressalva acima).
+- Atendimento por coleta e entrega em Campinas e Indaiatuba, sem oficina aberta ao público e sem atendimento em domicílio.
+- Taxa de deslocamento cobrada apenas quando o serviço não é executado.
+- Orçamento não é cobrado. Garantia: 90 dias.
+- Emite nota fiscal. Pagamento em dinheiro ou Pix, sem parcelamento.
+- TV: tecnologias atendidas LED, LCD e Plasma; todas as marcas; sem limite de tamanho; não troca painel/tela.
+- Som: amplificadores, caixas de som, toca-discos e equipamentos vintage; atende uso doméstico e profissional.
+- Outros equipamentos aceitos: forno de micro-ondas, adega climatizadora. Não aceita geladeira nem máquina de lavar roupa.
+- Faz reparo de placas e laudo para seguro/dano elétrico. Atende empresas e possui contratos de manutenção.
+- Não é autorizado de nenhuma marca. Não possui cursos/certificados formais a destacar.
+- Trabalha com eletrônica desde 2000; Borges Eletrônica existe há 25 anos.
+- Sem Perfil da Empresa no Google e sem Instagram/Facebook/YouTube no momento.
 
-46. Existe logotipo? (Foi criado um provisório em `assets/img/logo.svg` — ver nota abaixo)
-47. Há preferência de cores? (Paleta provisória aplicada conforme spec §10)
-48. Existe domínio registrado?
-49. Qual domínio será utilizado? (Placeholder atual: `https://www.borgeseletronica.com.br`)
-50. O site será hospedado onde?
-51. Quem atualizará os dados?
-52. Haverá anúncios no Google?
-53. O site precisa receber fotos pelo formulário?
-54. Haverá integração com ordem de serviço?
-55. Qual é o principal diferencial que Thiago deseja comunicar?
+## Ainda em aberto (não bloqueia publicação do conteúdo, mas precisa de decisão)
 
----
+Estas são decisões operacionais/técnicas, não perguntas de conteúdo — o site
+já está completo sem elas:
+
+- Logotipo definitivo? (provisório em `assets/img/logo.svg`)
+- Preferência de cores? (paleta provisória aplicada, spec §10)
+- Onde o site será hospedado?
+- Quem vai atualizar os dados do site no futuro?
+- Vai ter anúncio no Google?
+- O site precisa receber fotos por formulário?
+- Vai ter integração com ordem de serviço?
 
 ## Checklist de aceite (espelha a spec §21)
 
 ### Conteúdo
-- [ ] Todos os dados de contato foram confirmados.
-- [ ] O nome "Thiago Borges" foi validado.
-- [ ] Serviços e marcas foram revisados pelo técnico.
+- [x] Nome comercial "Borges Eletrônica" e dados de CNPJ confirmados.
+- [x] Serviços e marcas foram revisados com base nas respostas de Thiago.
 - [x] Nenhuma promessa não comprovada foi publicada.
 - [x] Textos estão em português brasileiro correto.
 - [x] "Conserto" está escrito com "s".
-- [ ] Campinas e Indaiatuba têm informações reais (hoje: seções na home com `[CONFIRMAR]`).
-- [ ] Política de orçamento está clara.
-- [ ] Garantia está clara ou foi omitida (hoje: mostrada como pendente).
-- [ ] Processo de atendimento corresponde à operação real.
-- [x] Avaliações são reais (nenhuma foi inventada; seção mostra aviso honesto).
+- [x] Campinas e Indaiatuba: atendimento descrito como coleta/entrega, sem endereço físico.
+- [x] Política de orçamento está clara (não cobrado, garantia de 90 dias).
+- [x] Garantia está clara (90 dias).
+- [x] Horário de atendimento removido do site (decisão definitiva).
+- [x] Avaliações são reais (nenhuma foi inventada; seção informa que ainda não há Perfil no Google).
 - [x] Fotos são reais ou claramente ilustrativas (ilustrações SVG com legenda "imagem provisória").
 
 ### Interface
 - [x] Responsivo a partir de 320 px.
 - [x] Menu funciona por teclado e toque.
-- [ ] Botões de contato funcionam (dependem do WhatsApp/telefone confirmados).
-- [ ] WhatsApp abre com mensagem correta (pronto no código; falta número real).
-- [ ] Telefone usa link `tel:` (pronto no código; falta número real).
+- [x] Botão de WhatsApp funciona (número real aplicado).
+- [x] WhatsApp abre com mensagem correta por página.
+- [x] Telefone removido da interface (não existe canal de ligação).
 - [x] Nenhum elemento cobre conteúdo no celular.
 - [x] Contraste seguindo a paleta §10.
 - [x] Foco visível.
@@ -105,10 +91,10 @@ rode `bash scripts/apply-config.sh` (ver `README.md`).
 ### SEO
 - [x] Título e descrição exclusivos por página.
 - [x] H1 exclusivo por página.
-- [x] Canonical presente (com domínio placeholder — atualizar quando confirmado).
-- [x] Sitemap presente (com domínio placeholder).
+- [x] Canonical presente com domínio real (borgeseletronica.com.br).
+- [x] Sitemap presente com domínio real.
 - [x] Robots presente.
-- [x] JSON-LD presente, sem dados fictícios (telephone/address/opening hours omitidos de propósito).
+- [x] JSON-LD presente, sem dados fictícios (telephone/address/opening hours omitidos de propósito, pois não existem).
 - [x] Open Graph completo (imagem ainda em SVG — gerar PNG antes de publicar).
 - [ ] Site cadastrado no Search Console.
 - [ ] Redirecionamentos de domínio (depende da hospedagem escolhida).

@@ -1,51 +1,47 @@
 {
-  "_readme": "Fonte única dos dados de negócio do site Borges Eletrônica. Os valores marcados como [CONFIRMAR] ainda não foram fornecidos e NÃO devem ser inventados. Depois de confirmar os dados reais com Thiago Borges, edite este arquivo e rode scripts/apply-config.sh para propagar os valores para todos os arquivos HTML. Veja PENDENCIAS.md para a lista completa de perguntas.",
+  "_readme": "Fonte única dos dados de negócio do site Borges Eletrônica. A maior parte dos dados já foi confirmada por Thiago Borges (ver docs/perguntas-para-thiago.docx). Não há telefone de contato, não há endereço físico (atendimento por coleta e entrega) e não há horário de atendimento divulgado — decisões definitivas, não pendências. Veja PENDENCIAS.md para o que ainda está em aberto. Depois de editar este arquivo, rode scripts/apply-config.sh para propagar os campos de contato para os arquivos HTML.",
 
   "businessName": "Borges Eletrônica",
   "ownerName": "Thiago Borges",
-  "legalName": "[CONFIRMAR]",
-  "cnpj": "[CONFIRMAR]",
+  "legalName": "Thiago Borges da Costa",
+  "cnpj": "51.497.192/0001-24",
 
-  "phone": "[CONFIRMAR]",
-  "phoneDisplay": "[CONFIRMAR]",
-  "whatsapp": "[CONFIRMAR]",
-  "whatsappDisplay": "[CONFIRMAR]",
-  "email": "[CONFIRMAR]",
+  "hasPhone": false,
+  "whatsapp": "+55 19 98407-4894",
+  "whatsappDisplay": "(19) 98407-4894",
+  "email": "thiago9980@hotmail.com",
 
   "address": {
-    "isPublicWorkshop": "[CONFIRMAR]",
-    "street": "[CONFIRMAR]",
-    "neighborhood": "[CONFIRMAR]",
-    "city": "[CONFIRMAR]",
-    "state": "SP",
-    "zip": "[CONFIRMAR]",
-    "mapsUrl": "[CONFIRMAR]"
+    "isPublicWorkshop": false,
+    "hasPhysicalAddress": false,
+    "city": "Campinas",
+    "state": "SP"
   },
 
-  "openingHours": "[CONFIRMAR]",
-  "yearsExperienceText": "quase 30 anos",
-  "warranty": "[CONFIRMAR]",
+  "openingHours": null,
+  "yearsExperienceText": "25 anos",
+  "warranty": "90 dias",
 
   "budgetPolicy": {
-    "isChargeable": "[CONFIRMAR]",
-    "isDeductedFromService": "[CONFIRMAR]"
+    "isChargeable": false,
+    "isDeductedFromService": null
   },
 
   "pickupDelivery": {
-    "available": "[CONFIRMAR]",
-    "travelFee": "[CONFIRMAR]"
+    "available": true,
+    "travelFee": "Sim, cobrada quando o serviço não é executado"
   },
 
-  "invoiceIssued": "[CONFIRMAR]",
-  "paymentMethods": "[CONFIRMAR]",
+  "invoiceIssued": true,
+  "paymentMethods": "Dinheiro e Pix (sem parcelamento)",
 
   "cities": ["Campinas", "Indaiatuba"],
 
-  "googleBusinessUrl": "[CONFIRMAR]",
-  "googleReviewsUrl": "[CONFIRMAR]",
-  "instagramUrl": "[CONFIRMAR]",
-  "facebookUrl": "[CONFIRMAR]",
-  "youtubeUrl": "[CONFIRMAR]",
+  "googleBusinessUrl": null,
+  "googleReviewsUrl": null,
+  "instagramUrl": null,
+  "facebookUrl": null,
+  "youtubeUrl": null,
 
   "siteUrl": "https://borgeseletronica.com.br",
 
