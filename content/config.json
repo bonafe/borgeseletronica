@@ -47,7 +47,7 @@
   "facebookUrl": "[CONFIRMAR]",
   "youtubeUrl": "[CONFIRMAR]",
 
-  "siteUrl": "[CONFIRMAR — ex: https://www.borgeseletronica.com.br]",
+  "siteUrl": "https://borgeseletronica.com.br",
 
   "whatsappMessages": {
     "generic": "Olá, encontrei a Borges Eletrônica pelo site. Preciso de ajuda com um equipamento.\nTipo de equipamento:\nMarca e modelo:\nProblema apresentado:\nCidade:",
