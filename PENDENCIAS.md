@@ -71,7 +71,7 @@ já está completo sem elas:
 - [x] Horário de atendimento removido do site (decisão definitiva).
 - [x] Avaliações são reais (nenhuma foi inventada; seção informa que ainda não há Perfil no Google).
 - [x] Logotipo definitivo aplicado (`assets/img/logo.png` e `assets/img/logo-light.png`).
-- [x] Fotos reais da bancada, TV e equipamento de som em diagnóstico aplicadas na home e nas páginas de serviço. Retrato de Thiago e foto dele trabalhando (`sobre/`) ainda são ilustrações provisórias.
+- [x] Fotos reais da bancada, TV e equipamento de som em diagnóstico aplicadas na home, nas páginas de serviço e na página Sobre. Não há mais ilustrações provisórias no site.
 
 ### Interface
 - [x] Responsivo a partir de 320 px.
