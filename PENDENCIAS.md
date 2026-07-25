@@ -53,7 +53,6 @@ Não há mais nenhum placeholder `[CONFIRMAR]` no site.
 Estas são decisões operacionais/técnicas, não perguntas de conteúdo — o site
 já está completo sem elas:
 
-- Logotipo definitivo? (provisório em `assets/img/logo.svg`)
 - Preferência de cores? (paleta provisória aplicada, spec §10)
 - Onde o site será hospedado?
 - Quem vai atualizar os dados do site no futuro?
@@ -74,7 +73,8 @@ já está completo sem elas:
 - [x] Garantia está clara (90 dias).
 - [x] Horário de atendimento removido do site (decisão definitiva).
 - [x] Avaliações são reais (nenhuma foi inventada; seção informa que ainda não há Perfil no Google).
-- [x] Fotos são reais ou claramente ilustrativas (ilustrações SVG com legenda "imagem provisória").
+- [x] Logotipo definitivo aplicado (`assets/img/logo.png` e `assets/img/logo-light.png`).
+- [x] Fotos reais da bancada, TV e equipamento de som em diagnóstico aplicadas na home e nas páginas de serviço. Retrato de Thiago e foto dele trabalhando (`sobre/`) ainda são ilustrações provisórias.
 
 ### Interface
 - [x] Responsivo a partir de 320 px.
